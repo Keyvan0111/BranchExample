@@ -6,11 +6,18 @@ def main():
     print_square(num)
     print_cube(num)
 
+
+def cube(num):
+    return num**3
+
+def print_cube(num):
+    result = cube(num)
+    print(f"The cube of {num} is: {result}")
+
+
 def print_square(num):
     pass
 
-def print_cube(num):
-    pass
 
 if __name__ == "__main__":
     main()
