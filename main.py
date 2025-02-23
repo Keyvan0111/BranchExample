@@ -9,13 +9,8 @@ def main():
 def print_square(num):
     pass
 
-def cube(num):
-    return num * num * num
-
 def print_cube(num):
-    result = cube(num)
-    print(f"The cube of {num} is: {result}")
-
+    pass
 
 if __name__ == "__main__":
     main()
