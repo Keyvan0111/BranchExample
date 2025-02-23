@@ -6,8 +6,12 @@ def main():
     print_square(num)
     print_cube(num)
 
+def square(num):
+    return num**2
+
 def print_square(num):
-    pass
+    calc_square = square(num)
+    print("number squared :", calc_square)
 
 def print_cube(num):
     pass
